@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tratamiento semantico de imagenes</title>
+</head>
+
+<body>
+
+    <div>
+        <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" alt="perrito">
+        <p>Perrito</p>
+    </div>
+
+    <figure>
+        <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" alt="perrito" style="width: 100%;">
+        <figcaption>perrito</figcaption>
+    </figure>
+
+
+    <picture>
+        <source media="(min-width: 800px)" srcset="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg">
+        <source media="(min-width: 500px)"
+            srcset="https://www.nationalgeographic.com.es/medio/2022/01/02/los-perros-son-capaces-de-anticipar-cuando-estamos-a-punto-de-volver-a-casa_9ae013ac_800x800.jpg">
+        <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg">
+    </picture>
+
+
+</body>
+
+</html>
